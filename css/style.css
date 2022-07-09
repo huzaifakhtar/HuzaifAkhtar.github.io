@@ -1,0 +1,85 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+/* Navigation Bar */
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px 0px 40px;
+    justify-content: space-between;
+    height: 100px;
+}
+#logo a{
+/* position: absolute; */
+text-decoration: none;
+font-family: 'Itim', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+color: #354DC4;
+}
+
+/* Navigation Bar : list styling */
+#navbar ul{
+    display: flex;
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 20px;  
+}
+.item a{
+    display: block;
+    width: 150px;
+    height: 32px;
+    margin: 0px 9px;
+    padding-top: 7px;
+    text-align: center;
+    text-decoration: none;
+    background: #8845F4;
+    border-radius: 10px;
+    color: white;
+}
+.item1 a{ 
+    display: block;
+    width: 150px;
+    height: 32px;
+    margin: 0px 9px;
+    padding-top: 7px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: #354DC4;
+    color: black;
+}
+
+/* Background Design*/
+
+#d1{   
+    position: absolute;
+    width: 115.22px;
+    height: 92.45px;
+    right: 0px;
+    top: 114px;
+    background-image: url("/image/Design1.png");
+}
+
+#d2 {
+    position: absolute;
+    width: 340.84px;
+    height: 282.84px;
+    left: 0px;
+    top: 500px;
+    background-image: url("/image/Design2.png");
+}
