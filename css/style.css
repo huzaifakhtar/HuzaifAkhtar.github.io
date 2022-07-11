@@ -1,41 +1,29 @@
 /* CSS Reset */
 *{
     margin: 0px;
-    padding: 0px;
-  }
+    padding: 0px;}
 
 /* Navigation Bar */
 #navbar{
-    position: relative;
     display: flex;
     align-items: center;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 0px 0px 40px;
     justify-content: space-between;
-    height: 100px;
-}
-#logo a{
-/* position: absolute; */
-text-decoration: none;
-font-family: 'Itim', cursive;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 42px;
-color: #354DC4;
-}
-
+    height: 100px;}
+#logo{
+    display: inline;
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    color: #354DC4;}
 /* Navigation Bar : list styling */
 #navbar ul{
     display: flex;
-    align-items: center;
     font-family: 'Inter';
-    font-style: bold;
     font-weight: 800;
     font-size: 24px;
     line-height: 20px;
-    list-style: none;
-}
-
+    list-style: none;}
 .item a{
     display: block;
     width: 180px;
@@ -46,8 +34,7 @@ color: #354DC4;
     text-decoration: none;
     background: #8845F4;
     border-radius: 10px;
-    color: white;
-}
+    color: white;}
 .item1 a{ 
     display: block;
     width: 180px;
@@ -60,8 +47,7 @@ color: #354DC4;
     border-width: 0px 1px;
     border-style: solid;
     border-color: #354DC4;
-    color: black;
-}
+    color: black;}
 
 /* Background Design*/
 
@@ -91,10 +77,10 @@ color: #354DC4;
     top: 170px;
 }
 #intro{
-    position: absolute;
+    /* position: absolute;
     left: 100px;
-    top: 180px;
-
+    top: 180px; */
+    display: inline;
     font-family: 'Cantarell';
     font-style: normal;
     font-weight: 700;
@@ -106,33 +92,24 @@ color: #354DC4;
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 350px;
-    height: 150px;
     left: 448px;
-    top: 455px;
+    top: 455px;  
     font-family: 'Inter';
-    font-style: bold;
     font-weight: 800;
     font-size: 25px;
-    line-height: 30px;
     color: #8845F4;
 }
 
-#cv button{
-    width: 190px;
-    height: 55px;
-    margin-top: 30px;
-    border: 6px solid #8845F4;
-    background-color: white;
-    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.3);
+#cv a{
+    width: 180px;
+    height: 36px;
+    margin-top: 25px;
+    padding-top: 8px;
+    border: 7px groove #8845F4;
     border-radius: 20px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 1000;
+    text-align: center;
     font-size: 22px;
-}
-
-#cv button a{
+    font-weight: 400;
     text-decoration: none;
     color: black;
 }
