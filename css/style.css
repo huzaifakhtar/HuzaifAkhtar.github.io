@@ -7,14 +7,16 @@
 #navbar{
     display: flex;
     align-items: center;
-    padding: 0px 0px 0px 40px;
+    padding: 0 2.93vw 0 2.93vw;
     justify-content: space-between;
-    height: 100px;}
+    width: 95vw;
+    height: 7.32vw;}
 #logo{
     display: inline;
     text-decoration: none;
+    margin-right: 2.93vw;
     font-family: 'Itim', cursive;
-    font-size: 35px;
+    font-size: 2.56vw;
     color: #354DC4;}
 /* Navigation Bar : list styling */
 #navbar ul{
@@ -48,63 +50,91 @@
     border-color: #354DC4;
     color: black;}
 
-/* Background Design*/
 
+    .parent {
+        display: grid;
+        /* grid-template-columns: 370px 400px 470px 160px; */
+        grid-template-columns: 26.4vw 28.5vw 36.7vw 8.4vw;
+        /* grid-template-rows: 310px 380px; */
+        /* grid-template-columns: repeat(2, 2fr) 3fr 1fr; */
+        grid-template-rows: 0.45fr 0.55fr;
+        /* grid-column-gap: 0px;
+        grid-row-gap: 0px; */
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 3; }
+        .div2 { grid-area: 1 / 3 / 3 / 4; }
+        .div3 { grid-area: 1 / 4 / 2 / 5; }
+        .div4 { grid-area: 2 / 1 / 3 / 2; }
+        .div5 { grid-area: 2 / 2 / 3 / 3; }
+
+
+
+/* Background Design*/
 #d1{   
-    position: absolute;
-    width: 115.22px;
-    height: 92.45px;
+    /* position: absolute;
     right: 0px;
-    top: 114px;
+    top: 114px; */
+    width: 8.43vw;
+    height: 6.76vw;    
+    margin: 1.1vw 0 0 0vw;
+    background-size: cover;
     background-image: url("/image/Design1.png");
 }
 #d2{
-    position: absolute;
-    width: 340.84px;
-    height: 282.84px;
-    left: 0px;
-    top: 500px;
+    /* position: absolute; */
+    width: 24.95vw;
+    height: 20.7vw;
+    background-size: cover;
+    /* left: 0px;
+    top: 500px; */
+    margin: 8.05vw 0 0 0vw;
     background-image: url("/image/Design2.png");
 }
 #dp{
     box-sizing: border-box;
     background-image: url(/image/DP.png);
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    left: 740px;
-    top: 210px;
+    /* position: absolute; */
+    background-size: cover;
+    width: 32.94vw;
+    height: 32.94vw;
+    margin: 4.4vw 0 0 4.2vw;
+    /* right: 106px;
+    top: 160px;     */
 }
 #intro{
     /* position: absolute;
-    left: 100px;
-    top: 180px; */
-    display: inline;
+    left: 107px;
+    top: 140px; */
+    /* margin: 40px 0px 0px 110px; */
+    margin: 2.92vw 0 0 8.05vw;
+    display: inline-block;
     font-family: 'Cantarell';
-    font-size: 70px;
+    font-size: 5.124vw;
     letter-spacing: -0.05em;
 }
 #cv{
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 448px;
-    top: 455px;  
+    /* position: absolute;
+    left: 400px;
+    top: 440px; */
+    margin: 7.32vw 0 0 0vw;
     font-family: 'Inter';
     font-weight: 800;
-    font-size: 25px;
+    font-size: 1.83vw;
     color: #8845F4;
 }
 
 #cv a{
-    width: 180px;
-    height: 36px;
-    margin-top: 25px;
-    padding-top: 8px;
-    border: 7px groove #8845F4;
-    border-radius: 20px;
+    width: 13.908vw;
+    height: 2.63vw;
+    margin-top: 1.83vw;
+    padding-top: 0.585vw;
+    border: 0.44vw groove #8845F4;
+    border-radius: 1.31vw;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.61vw;
     font-weight: 400;
     text-decoration: none;
     color: black;
