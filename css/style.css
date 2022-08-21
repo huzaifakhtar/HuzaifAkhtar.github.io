@@ -94,13 +94,13 @@ nav ul{
     width: 8.43vw;
     height: 6.76vw;    
     margin: 1.1vw 0 0 0.3vw;
-    background-size: cover;
+    background-size: cover;   
     background-image: url("/image/Design1.png");}
 #d2{
     width: 24.95vw;
     height: 20.7vw;
-    background-size: cover;
     margin: 8.05vw 0 0 0vw;
+    background-size: cover;   
     background-image: url("/image/Design2.png");}
 
 /* Display Profile Image */
@@ -152,13 +152,8 @@ nav ul{
         display: none;
     }
     .parent {
-        display: grid;
         grid-template-columns: 40vw 42vw 17.5vw;
-        grid-template-rows: 145px 15.1vw 22.1vw 21vw;
-        /* grid-template-columns: 170px 175px 75px;
-        grid-template-rows: 145px 65px 95px 90px; */
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        grid-template-rows: 33.7vw 15.1vw 22.1vw 21vw;
     }
     .div1 { grid-area: 1 / 1 / 2 / 3; }
     .div2 { grid-area: 2 / 2 / 5 / 4; }
@@ -167,8 +162,39 @@ nav ul{
     .div5 { grid-area: 2 / 1 / 4 / 2; }
 
     #intro{
-        margin: 3vw 0 0 4vw;
-        font-size: 37px;
+        margin: 9.3vw 0 0 4.65vw;
+        font-size: 8.6vw;
+    }
+    #dp{
+        width: 55.8vw;
+        height: 55.8vw;
+        margin: 9.3vw 0 0 1.16vw;
+    }
+    #d1{   
+        width: 17.2vw;
+        height: 13.7vw;
+        margin: 7vw 0 0 0;
+    }
+    #d2{
+        width: 25.12vw;
+        height: 20.93vw;
+        margin: 10vw 0 0 0;
+    }
+    #cv{
+        align-items: center;
+        text-align: center;
+        font-size: 3.72vw;
+        margin: 9.3vw 0 0 2.32vw;
+    }
+    #cv a{
+        width: 113px;
+        height: 20px;
+        border: 5px solid #8845F4;
+        box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
+        font-size: 12px;
+        margin-top: 20px;
+        padding-top: 5px;
     }
     }    
 /* About me */
