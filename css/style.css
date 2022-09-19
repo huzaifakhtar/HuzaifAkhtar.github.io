@@ -246,6 +246,89 @@ nav ul{
     font-family: 'Cantarell';
 }
 
+
+/* Contact */
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.73vw 0px;
+    align-items: center;
+}
+footer{
+    background-color: #151414;
+    margin-top: 2.92vw;    
+    font-family: 'Cantarell';
+    font-weight: 700;
+}
+.contact-box{
+    display: flex;
+    align-items: center;
+    padding: 0.73vw;
+}
+.phone{
+    background-image: url(/image/telephone.png);
+}
+.mail{
+    background-image: url(/image/mail.png);
+}
+.location{
+    background-image: url(/image/placeholder.png);
+}
+.contact-box__icon{
+    display: inline-block;
+    margin: 0px 0.73vw;
+    width: 4.4vw;
+    height: 4.4vw;
+    background-size: cover;
+
+}
+.contact-box a{
+    font-size: 1.83vw;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.contact-box p{
+    font-size: 1.17vw;
+    color: #6C757D;
+}
+
+.sm{
+    background-color: #212529;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.36vw 0px;
+}
+.sm-logo a{
+    color: rgb(255, 255, 255);
+    font-size: 2.56vw;
+    margin: 0px 0.36vw;
+}
+.sm-logo a:hover{
+    color: #8845F4;
+}
+.sm p{
+    font-size: 1.68vw;
+    color: white;
+}
+
+
+.copyright{
+    background-color: black;
+    text-align: center;
+    font-size: 1.46vw;
+    color: #767676;
+    padding: 0.73vw1.46vw 0px;
+    display: flex;
+    justify-content: center;
+}
+.copyright p{
+    color: white;
+    display: inline;
+    margin-left: 1.46vw;
+}
+
+
 @media (max-width: 760px){
     .dropdown{
         display: block;
@@ -301,10 +384,11 @@ nav ul{
         margin-top: 20px;
         padding-top: 5px;
     }
-    /* #about{
+    #about{
         background-image: url(/image/about_bgr.png);
         background-repeat: no-repeat;
-        margin-top: 40px;
+        /* width: 418px; */
+        margin-top: 25px;
     }
     #about .image{
         display: none;
@@ -312,91 +396,77 @@ nav ul{
     #about h1{
         font-size: 30px;
         text-align: center;
-        margin-top: 55px;
+        margin-top: 50px;       
     }
     #about p{
         font-size: 20px;
         text-align: center;
-        padding: 0 10px;
-    } */
+        width: 97vw;
+        margin-top: 10px;
+    }
 
+    #projects{
+        flex-direction: column-reverse;
+    }
+    #projects .container1 {
+        margin: 10px 0;
+        grid-template-columns: repeat(2, 35.28vw) 23.36vw;
+        grid-template-rows: repeat(3, 18.14vw);
+        grid-column-gap: 0.58vw;
+        grid-row-gap: 0.58vw;
+        border: 0.58vw solid black;
+    }  
+    #projects h1{
+        font-family: 'Cantarell';
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    #projects .image{
+        display: none;
+    }
+    .overlay .icons{
+        display: flex;
+        font-size: 5vw;
+        padding: 2vw 0 0 2vw ;  
+    }
+    
+    .row{
+        flex-direction: column;
+        padding: 0.73vw 0px;
+        align-items: flex-start;
+    }
+    .contact-box{
+        margin: 10px 0 0 0;
+    }
+    .contact-box__icon{
+        margin: 0px 20px;
+        width: 32px;
+        height: 32px;
+    }
+    .contact-box a{
+        font-size: 16px;
+    }
+    .contact-box p{
+        font-size: 12px;
+    }
+    .sm{
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .sm-logo a{
+        font-size: 30px;
+        margin: 0 10px;
+    }
+    .sm p{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .copyright{
+        font-size: 12px;
+        padding: 0.73vw 1.46vw 0px;
+    }
+    .copyright p{
+        margin-left: 5px;
+    }
     }    
-
-
-
-/* Contact */
-.row{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0.73vw 0px;
-    align-items: center;
-}
-footer{
-    background-color: #151414;
-    margin-top: 2.92vw;    
-    font-family: 'Cantarell';
-    font-weight: 700;
-}
-.contact-box{
-    display: flex;
-    align-items: center;
-    padding: 0.73vw;
-}
-.phone{
-    background-image: url(/image/telephone.png);
-}
-.mail{
-    background-image: url(/image/mail.png);
-}
-.location{
-    background-image: url(/image/placeholder.png);
-}
-.contact-box__icon{
-    display: inline-block;
-    margin: 0px 0.73vw;
-    width: 4.4vw;
-    height: 4.4vw;
-    background-size: cover;
-
-}
-.contact-box a{
-    font-size: 1.83vw;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.contact-box p{
-    font-size: 1.17vw;
-    color: #6C757D;
-}
-
-.sm{
-    background-color: #212529;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0.36vw 0px;
-}
-.sm-logo a{
-    color: white;
-    font-size: 2.56vw;
-    margin: 0px 0.36vw;
-}
-.sm p{
-    font-size: 1.68vw;
-    color: white;
-}
-
-.copyright{
-    background-color: black;
-    text-align: center;
-    font-size: 1.46vw;
-    color: #767676;
-    padding: 0.73vw1.46vw 0px;
-    display: flex;
-    justify-content: center;
-}
-.copyright p{
-    color: white;
-    display: inline;
-    margin-left: 0.36vw 1.46vw;
-}
