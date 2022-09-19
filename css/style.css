@@ -387,7 +387,6 @@ footer{
     #about{
         background-image: url(/image/about_bgr.png);
         background-repeat: no-repeat;
-        /* width: 418px; */
         margin-top: 25px;
     }
     #about .image{
